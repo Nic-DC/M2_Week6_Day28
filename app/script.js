@@ -5,6 +5,7 @@ console.log("olaaa");
 // Extra 13 - Create a method that counts the number of “travels” on the page
 const allTravels = document.querySelectorAll(".card-image");
 const totalTravels = document.getElementById("totalTravels");
+totalTravels.innerText = `${allTravels.length}`;
 
 // Extra 16 - Delete all cards [why is allCards of length 16?]
 const allCards = document.querySelectorAll(".card");
