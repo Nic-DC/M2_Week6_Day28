@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <!-- bootstrap classes -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- EX1: NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- EX2: LOGO -->
+      <img src="/assets/nav-logo.svg" id="navLogo" class="img-fluid" alt="logo" />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#jumbotron">Jumbo<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#dotw">DotW<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#dotd">DotD<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#summer">Summer<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#lastMinute">Last Minute<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#testimonials">Testimonials<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#footer">Social<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Albums
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#JC1">Joe Cocker Live</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#JC2">With A Little Help From My Friends</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#JC3">Mad Dogs & Englishmen</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#JC4">Sheffield Steel</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- EX3: JUMBOTRON -->
+    <button type="button" class="btn btn-dark mb-3 mt-5 ml-3" data-toggle="collapse" data-target="#jumbotron">
+      Hide Jumbo
+    </button>
+    <div class="jumbotron jumbotron-fluid" id="jumbotron">
+      <div class="container">
+        <h1 class="display-4">The Jumbo</h1>
+        <p class="lead">Only for exercise 3 🎃.</p>
+      </div>
+    </div>
+
+    <!-- EX4: Day of the Week -->
+    <button type="button" class="btn btn-dark mb-3 mt-5 ml-3" data-toggle="collapse" data-target="#dotw">
+      Hide Deal of the Week
+    </button>
+    <div class="container-fluid show collapse" id="#dotw">
+      <div class="row d-flex justify-content-center">
+        <div class="col12 col-sm-6 col-md-4 col-lg-3 mb-4 mb-sm-3 mb-md-2 mb-lg-0">
+          <div class="card">
+            <img src="/assets/card1.jpg" class="card-img-top card-image" alt="Nice centre" />
+            <div class="card-body">
+              <h5 class="card-title truncate">Card titlesadfasdf</h5>
+              <p class="card-text line-clamp">
+                Some quick example text to build on the card title and make up the bulk of the card's content. Some
+                quick example text to build on the card title and make up the bulk of the card's content. Some quick
+                example text to build on the card title and make up the bulk of the card's content. Some quick example
+                text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col12 col-sm-6 col-md-4 col-lg-3 mb-4 mb-sm-3 mb-md-2 mb-lg-0">
+          <div class="card">
+            <img src="/assets/card2.jpg" class="card-img-top card-image" alt="Nice seashore" />
+            <div class="card-body">
+              <h5 class="card-title truncate">Card titlesadfasdf</h5>
+              <p class="card-text line-clamp">
+                Some quick example text to build on the card title and make up the bulk of the card's content. Some
+                quick example text to build on the card title and make up the bulk of the card's content. Some quick
+                example text to build on the card title and make up the bulk of the card's content. Some quick example
+                text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col12 col-sm-6 col-md-4 col-lg-3 mb-4 mb-sm-3 mb-md-2 mb-lg-0">
+          <div class="card">
+            <img src="/assets/card3.jpg" class="card-img-top card-image" alt="Nice seashore at dusk" />
+            <div class="card-body">
+              <h5 class="card-title truncate">Card titlesadfasdf</h5>
+              <p class="card-text line-clamp">
+                Some quick example text to build on the card title and make up the bulk of the card's content. Some
+                quick example text to build on the card title and make up the bulk of the card's content. Some quick
+                example text to build on the card title and make up the bulk of the card's content. Some quick example
+                text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go </a>
+            </div>
+          </div>
+        </div>
+        <div class="col12 col-sm-6 col-md-4 col-lg-3 mb-4 mb-sm-3 mb-md-2 mb-lg-0">
+          <div class="card">
+            <img src="/assets/card4.jpg" class="card-img-top card-image" alt="Nice riviera" />
+            <div class="card-body">
+              <h5 class="card-title truncate">Card tittlesadfasdf</h5>
+              <p class="card-text line-clamp">
+                Some quick example text to build on the card title and make up the bulk of the card's content. Some
+                quick example text to build on the card title and make up the bulk of the card's content. Some quick
+                example text to build on the card title and make up the bulk of the card's content. Some quick example
+                text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EX5: Welcome Summer_id="summer" -->
+    <!-- EX8: Add shadow to this section -->
+    <button type="button" class="btn btn-dark mb-3 mt-5 ml-3" data-toggle="collapse" data-target="#summer">
+      Hide the Summer
+    </button>
+    <div class="container-fluid d-flex justify-content-center">
+      <div class="row mx-n1 shadow-lg p-3 mb-1 bg-white rounded show collapse" id="summer">
+        <div class="col12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-sm-3 mb-md-2 mb-lg-0 px-1">
+          <div class="card">
+            <img src="/assets/card6.jpg" class="card-img-top card-image" alt="Nice seashore at dusk" />
+            <div class="card-body">
+              <h5 class="card-title truncate">Card titlesadfasdf</h5>
+              <p class="card-text line-clamp">
+                Some quick example text to build on the card title and make up the bulk of the card's content. Some
+                quick example text to build on the card title and make up the bulk of the card's content. Some quick
+                example text to build on the card title and make up the bulk of the card's content. Some quick example
+                text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go </a>
+            </div>
+          </div>
+        </div>
+        <div class="col12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-sm-3 mb-md-2 mb-lg-0 px-1">
+          <div class="card">
+            <img src="/assets/card5.jpg" class="card-img-top card-image" alt="Nice seashore at dusk" />
+            <div class="card-body">
+              <h5 class="card-title truncate">Card titlesadfasdf</h5>
+              <p class="card-text line-clamp">
+                Some quick example text to build on the card title and make up the bulk of the card's content. Some
+                quick example text to build on the card title and make up the bulk of the card's content. Some quick
+                example text to build on the card title and make up the bulk of the card's content. Some quick example
+                text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go </a>
+            </div>
+          </div>
+        </div>
+        <div class="col12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-sm-3 mb-md-2 mb-lg-0 px-1">
+          <div class="card">
+            <img src="/assets/card4.jpg" class="card-img-top card-image" alt="Nice seashore at dusk" />
+            <div class="card-body">
+              <h5 class="card-title truncate">Card titlesadfasdf</h5>
+              <p class="card-text line-clamp">
+                Some quick example text to build on the card title and make up the bulk of the card's content. Some
+                quick example text to build on the card title and make up the bulk of the card's content. Some quick
+                example text to build on the card title and make up the bulk of the card's content. Some quick example
+                text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go </a>
+            </div>
+          </div>
+        </div>
+        <div class="col12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-sm-3 mb-md-2 mb-lg-0 px-1">
+          <div class="card">
+            <img src="/assets/card3.jpg" class="card-img-top card-image" alt="Nice seashore at dusk" />
+            <div class="card-body">
+              <h5 class="card-title truncate">Card titlesadfasdf</h5>
+              <p class="card-text line-clamp">
+                Some quick example text to build on the card title and make up the bulk of the card's content. Some
+                quick example text to build on the card title and make up the bulk of the card's content. Some quick
+                example text to build on the card title and make up the bulk of the card's content. Some quick example
+                text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go </a>
+            </div>
+          </div>
+        </div>
+        <div class="col12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-sm-3 mb-md-2 mb-lg-0 px-1">
+          <div class="card">
+            <img src="/assets/card2.jpg" class="card-img-top card-image" alt="Nice seashore at dusk" />
+            <div class="card-body">
+              <h5 class="card-title truncate">Card titlesadfasdf</h5>
+              <p class="card-text line-clamp">
+                Some quick example text to build on the card title and make up the bulk of the card's content. Some
+                quick example text to build on the card title and make up the bulk of the card's content. Some quick
+                example text to build on the card title and make up the bulk of the card's content. Some quick example
+                text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go </a>
+            </div>
+          </div>
+        </div>
+        <div class="col12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4 mb-sm-3 mb-md-2 mb-lg-0 px-1">
+          <div class="card">
+            <img src="/assets/card1.jpg" class="card-img-top card-image" alt="Nice seashore at dusk" />
+            <div class="card-body">
+              <h5 class="card-title truncate">Card titlesadfasdf</h5>
+              <p class="card-text line-clamp">
+                Some quick example text to build on the card title and make up the bulk of the card's content. Some
+                quick example text to build on the card title and make up the bulk of the card's content. Some quick
+                example text to build on the card title and make up the bulk of the card's content. Some quick example
+                text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-dark">Go </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EX6: DotD_id="dotd" -->
+    <!-- Ex7: DotD dissapears on mobile -->
+
+    <div class="container-fluid mt-5 d-none d-sm-block">
+      <button type="button" class="btn btn-dark mb-3" data-toggle="collapse" data-target="#dotd">
+        Hide Deal of the Day
+      </button>
+      <div class="row show collapse" id="dotd">
+        <div class="col12 col-sm-6 col-md-7 col-lg-8">
+          <img src="/assets/dotd.jpg" class="img-fluid" id="dotdImage" alt="wooden dock at dusk" />
+        </div>
+        <div class="col12 col-sm-6 col-md-5 col-lg-4">
+          <h2 class="display-4">Deal of the Day</h2>
+          <p class="text-muted">Read on or <a href="#" class="text-reset">go up</a></p>
+          <p class="font-weight-bold">
+            Name <i class="bi bi-file-image"></i> <span class="font-weight-light">Côte d'Azur</span>.
+          </p>
+          <p class="font-weight-bold">
+            Dates <i class="bi bi-calendar-event"> </i><span class="font-weight-light">Fri - Thrs</span>.
+          </p>
+          <p class="font-weight-bold">
+            Price <i class="bi bi-currency-euro"></i> <span class="font-weight-light">250</span>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- EX9: Last Minute_id="lastMinute" -->
+    <div class="container-fluid mt-5">
+      <button type="button" class="btn btn-dark mb-3" data-toggle="collapse" data-target="#lastMinute">
+        Hide Last Minute
+      </button>
+      <div class="row show collapse" id="lastMinute">
+        <div class="col12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img src="/assets/card6.jpg" class="card-img-top card-image" alt="Nice seashore at dusk" />
+          </div>
+        </div>
+        <div class="col12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img src="/assets/card5.jpg" class="card-img-top card-image" alt="Nice seashore at dusk" />
+          </div>
+        </div>
+        <div class="col12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img src="/assets/card4.jpg" class="card-img-top card-image" alt="Nice seashore at dusk" />
+          </div>
+        </div>
+        <div class="col12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img src="/assets/card3.jpg" class="card-img-top card-image" alt="Nice seashore at dusk" />
+          </div>
+        </div>
+        <div class="col12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img src="/assets/card2.jpg" class="card-img-top card-image" alt="Nice seashore at dusk" />
+          </div>
+        </div>
+        <div class="col12 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img src="/assets/card1.jpg" class="card-img-top card-image" alt="Nice seashore at dusk" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- EX10: TESTIMONIALS -->
+    <div class="container-fluid mt-5">
+      <button type="button" class="btn btn-dark mb-3" data-toggle="collapse" data-target="#testimonials">
+        Hide testimonials
+      </button>
+      <div class="row show collapse" id="testimonials">
+        <div class="col12 col-sm-6 col-md-4 col-lg-3 mb-3 mb-sm-2 mb-md-1">
+          <blockquote class="blockquote">
+            <h4>Testimonial 1</h4>
+            <p class="mb-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam consequatur libero ut fugit! Nemo eos
+              dolorum nostrum perferendis? Eveniet officiis enim cupiditate? Fuga asperiores necessitatibus officia,
+              maiores illo quasi corrupti.
+            </p>
+            <footer class="blockquote-footer">User 1: <cite title="Source Title">JJ</cite></footer>
+          </blockquote>
+        </div>
+        <div class="col12 col-sm-6 col-md-4 col-lg-3 mb-3 mb-sm-2 mb-md-1">
+          <blockquote class="blockquote">
+            <h4>Testimonial 2</h4>
+            <p class="mb-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam consequatur libero ut fugit! Nemo eos
+              dolorum nostrum perferendis? Eveniet officiis enim cupiditate? Fuga asperiores necessitatibus officia,
+              maiores illo quasi corrupti.
+            </p>
+            <footer class="blockquote-footer">User 1: <cite title="Source Title">JJ</cite></footer>
+          </blockquote>
+        </div>
+        <div class="col12 col-sm-6 col-md-4 col-lg-3 mb-3 mb-sm-2 mb-md-1">
+          <blockquote class="blockquote">
+            <h4>Testimonial 3</h4>
+            <p class="mb-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam consequatur libero ut fugit! Nemo eos
+              dolorum nostrum perferendis? Eveniet officiis enim cupiditate? Fuga asperiores necessitatibus officia,
+              maiores illo quasi corrupti.
+            </p>
+            <footer class="blockquote-footer">User 1: <cite title="Source Title">JJ</cite></footer>
+          </blockquote>
+        </div>
+        <div class="col12 col-sm-6 col-md-4 col-lg-3 mb-3 mb-sm-2 mb-md-1">
+          <blockquote class="blockquote">
+            <h4>Testimonial 4</h4>
+            <p class="mb-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam consequatur libero ut fugit! Nemo eos
+              dolorum nostrum perferendis? Eveniet officiis enim cupiditate? Fuga asperiores necessitatibus officia,
+              maiores illo quasi corrupti.
+            </p>
+            <footer class="blockquote-footer">User 1: <cite title="Source Title">JJ</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <!-- EX11: FOOTER -->
+
+    <footer class="page-footer font-small black pt-4" id="footer">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <div class="col-md-6 mt-md-0 mt-3">
+            <h5 class="text-uppercase">Footer</h5>
+            <a href="#" class="btn btn-dark">Contact us</a>
+          </div>
+
+          <div class="col-md-3 mb-md-0 mb-3">
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://www.pinterest.com/!">Pinterest <i class="bi bi-pinterest"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 mb-md-0 mb-3">
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://github.com/"
+                  >Github
+                  <i class="bi bi-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center py-3">
+        <h4>Total travels: <span id="totalTravels"></span></h4>
+        <button type="button" class="btn btn-dark" data-toggle="collapse" data-target="#footer">View Copyright</button>
+        <div id="footer" class="collapse">
+          © 2022 Copyright:
+          <a href="#"> DNC.com</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <!-- js link -->
+    <script src="/app/script.js"></script>
+  </body>
+</html>
