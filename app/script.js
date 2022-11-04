@@ -7,7 +7,7 @@ const allTravels = document.querySelectorAll(".card-image");
 const totalTravels = document.getElementById("totalTravels");
 totalTravels.innerText = `${allTravels.length}`;
 
-// Extra 16 - Delete all cards [why is allCards of length 16?]
+// Extra 16 - Delete all cards
 let allCards = document.querySelectorAll(".card");
 const deleteBtn = document.getElementById("deleteBtn");
 const removeAllCards = function () {
@@ -17,14 +17,11 @@ const removeAllCards = function () {
   seeTravels();
 };
 deleteBtn.addEventListener("click", removeAllCards);
-// deleteBtn.addEventListener("click", seeTravels);
 
 const seeTravels = function () {
   allCards = document.querySelectorAll(".card");
   totalTravels.innerText = `${allCards.length}`;
 };
-
-// seeTravels();
 
 // Etra 17 - hot badge to summer items
 const summerElements = document.querySelectorAll("#summer .card");
